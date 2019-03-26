@@ -16,7 +16,12 @@ orange = 65.79
 print(f"Цена апельсина {orange}")
 count = int(input("Сколько апельсинов хотите купить?: "))
 summa = count * orange
-print(f"Вы должны заплатить {summa} за {count} штук апельсинов!")
-print(f"Вас зовут {name}, вам {age} года и Вы купили {count} апельсинов за {summa}")
+buy = input("Вы хотите купить? ")
+if buy == "yes":
+    print(f"Вас зовут {name}, вам {age} года и Вы купили {count} штук, за {summa}")
+elif buy == "no":
+    print(f"Вас зовут {name}, вам {age} года и Вы не купили {count}")
+else:
+    print(f"Вы ввели неправильное слово")
 
 
