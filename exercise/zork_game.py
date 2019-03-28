@@ -77,5 +77,7 @@ while True:
 
         elif con_act.lower() == "нет":
             exit()
+            dwdsd
+            
 
 
